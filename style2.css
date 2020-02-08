@@ -64,10 +64,6 @@ header .item a.nav-link:hover {
     color: #c5c3c3;
 }
 
-header .dropdown-toggle:after {
-    display: none;
-}
-
 header .sub-menu {
     padding: 0;
     position: absolute;
