@@ -1,0 +1,92 @@
+/* --------> common */
+
+/* <-------- common */
+
+/* --------> header */
+header .dropdown-toggle::after {
+    display: none;
+}
+/* <-------- header */
+
+/* --------> top */
+#top .footer {
+    position: relative;
+}
+
+#top .footer button, #top .footer button:before {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+#top .footer button {
+    background-color: #000;
+    color: #fff;
+    bottom: -32px;
+    width: 64px;
+    height: 64px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+#top .footer button:hover {
+    background-color: #442606;
+}
+
+#top .footer button:before {
+    bottom: 26px;
+    width: 18px;
+    height: 18px;
+    font-size: 18px;
+    content: "↓";
+}
+/* <-------- top */
+
+
+/* --------> about */
+
+/* <-------- about */
+
+
+/* --------> introduction */
+
+/* <-------- introduction */
+
+
+/* --------> newsEvent */
+
+/* <-------- newsEvent */
+
+
+/* --------> interview */
+
+/* <-------- interview */
+
+
+/* --------> plan */
+
+/* <-------- plan */
+
+
+/* --------> question */
+
+/* <-------- question */
+
+
+/* --------> blog */
+
+/* <-------- blog */
+
+
+/* --------> more */
+
+/* <-------- more */
+
+
+/* --------> footer */
+
+/* <-------- footer */
