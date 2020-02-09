@@ -46,9 +46,16 @@ header .dropdown-toggle::after {
 }
 /* <-------- top */
 
-
 /* --------> about */
-
+@media (max-width: 767px) {
+    #about .image {
+        flex-wrap: wrap;
+    }
+    
+    #about img {
+        width: 50%;
+    }
+}
 /* <-------- about */
 
 
