@@ -241,6 +241,10 @@ header .sub-menu a:hover {
     padding: 16px 56px;
     letter-spacing: 1px;
 }
+
+#introduction .btn:hover {
+    background-color: #442606;
+}
 /* <-------- introduction */
 
 
