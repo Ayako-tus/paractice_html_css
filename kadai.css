@@ -492,7 +492,52 @@ header .sub-menu a:hover {
 }
 /* <-------- more */
 
-
 /* --------> footer */
+footer .company {
+    padding: 40px 0;
+}
 
+footer .company img {
+    height: 28px;
+    margin-bottom: 20px;
+}
+
+footer .company p {
+    line-height: 32px
+}
+
+footer ul {
+    list-style: none;
+    background-color: #efefef;
+    padding: 16px 0;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    margin-bottom: 0;
+}
+
+footer li {
+    display: inline-block;
+    padding: 0 8px;
+}
+
+footer li:nth-child(n+2) {
+    border-left: 1px solid #000;
+}
+
+footer li a {
+    color: #000;
+    font-size: 14px;
+}
+
+footer li a:hover {
+    text-decoration: none;
+    color: #442606;
+}
+
+footer .copyright {
+    padding: 20px 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+}
 /* <-------- footer */
