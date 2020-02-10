@@ -335,6 +335,16 @@ header .sub-menu a:hover {
 /* <-------- newsEvent */
 
 /* --------> interview */
+#interview .btn {
+    position: absolute;
+    right: 165px;
+    background-color: #000;
+    color: #efefef;
+    border-radius: 0;
+    font-size: 12px;
+    padding: 16px 48px;
+}
+
 #interview .card .title {
     font-size: 14px;
 }
