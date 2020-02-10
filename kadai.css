@@ -3,11 +3,11 @@ main > section:nth-child(n + 2) {
     padding: 60px 0;
 }
 
-#top .footer h3, #about .content h3, #plan .content h3 {
+#top .footer h3, #about .content h3, #newsEvent .col-12 > .title, #interview .container > .title, #plan .content h3, #more .content h3 {
     margin-bottom: 20px;
 }
 
-#top .main .content, #top .footer h3, #about .content h3, #plan .content h3 {
+#top .main .content, #top .footer h3, #about .content h3, #plan .content h3, #more .content h3 {
     font-size: 36px;
     font-family: "Times New Roman", "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HiraMinProN-W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
 }
@@ -16,14 +16,10 @@ main > section:nth-child(n + 2) {
     color: #442606;
 }
 
-#about .content p, #plan .content p {
+#about .content p, #plan .content p, #more .content p {
     line-height: 40px;
     font-size: 12px;
     letter-spacing: 2px;
-}
-
-#newsEvent .col-12 > .title, #interview .container > .title {
-    margin-bottom: 20px;
 }
 
 #newsEvent .title h3, #interview .title h3 {
@@ -428,17 +424,72 @@ header .sub-menu a:hover {
 /* <-------- plan */
 
 /* --------> question */
-
 /* <-------- question */
 
-
 /* --------> blog */
-
 /* <-------- blog */
 
-
 /* --------> more */
+#more {
+    background-image: url(./image/pancake.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#more .content {
+    margin-bottom: 32px;
+}
+
+#more ul {
+    list-style: none;
+}
+
+#more li {
+    width: 400px;
+    overflow: hidden;
+    margin: 0 12px;
+}
+
+#more a {
+    overflow: hidden;
+}
+
+#more .title:before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: -120px;
+    width: 0;
+    height: 0;
+    border-width: 120px 60px 120px 60px;
+    border-style: solid;
+    border-color: transparent #fff #fff transparent;
+}
+
+#more .title {
+    background-color: #fff;
+    color: #442606;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 170px;
+    height: 120px;
+    font-size: 16px;
+    line-height: 120px;
+}
+
+#more img {
+    transition: transform 0.2s linear;
+}
+
+#more img:hover {
+    transform: scale(1.1);
+}
 /* <-------- more */
 
 
