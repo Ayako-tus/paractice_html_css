@@ -13,7 +13,6 @@ main > section:nth-child(n + 2) {
 }
 /* <-------- common */
 
-
 /* --------> header */
 header nav {
     z-index: 1;
@@ -191,9 +190,57 @@ header .sub-menu a:hover {
 }
 /* <-------- about */
 
-
 /* --------> introduction */
+#introduction .card {
+    border-radius: 0;
+    border: 1px solid #efefef;
+    background-color: #efefef;
+}
 
+#introduction .title {
+    color: #442606;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 4px;
+    z-index: 0;
+}
+
+#introduction .title:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: -5px;
+    top: -1px;
+    border-width: 75px;
+    border-style: solid;
+    border-color: #fff transparent transparent #fff;
+}
+
+#introduction img {
+    width: 100%;
+    border-radius: 0;
+}
+
+#introduction .card-body {
+    padding: 28px;
+}
+
+#introduction .card-text {
+    font-size: 12px;
+    line-height: 30px;
+    padding: 12px;
+}
+
+#introduction .btn {
+    background-color: #000;
+    border-radius: 0;
+    color: #fff;
+    font-size: 12px;
+    padding: 16px 56px;
+    letter-spacing: 1px;
+}
 /* <-------- introduction */
 
 
