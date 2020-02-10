@@ -58,9 +58,17 @@ header .dropdown-toggle::after {
 }
 /* <-------- about */
 
-
 /* --------> introduction */
-
+#introduction .image {
+    overflow: hidden;
+}
+#introduction img {
+    transition: transform 0.2s linear;
+    transition-duration: 0.5s;
+}
+#introduction img:hover {
+    transform: scale(1.2);
+}
 /* <-------- introduction */
 
 
